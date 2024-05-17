@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:wght@400;700&display=swap');
+
+:root{
+    --fonte-primaria: 'Do Hyeon', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right bottom, #2aab8c, #20a68d, #17a28e, #0d9d8e, #05988e, #00928d, #008b8b, #008589, #097c85, #14727f, #1d6979, #246071);
+}
+
+.barra-navegacao {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 51px 51px auto;
+    gap: 64px;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    color: #2F4858; 
+    
+}
+/*RESOLVER ALINHAMENTO ICON E TEXTO*/
+.botoes-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    border: 1px solid red;
+    line-height: 30px;
+}
+
+svg {
+    border: 1px solid red;
+}
+
