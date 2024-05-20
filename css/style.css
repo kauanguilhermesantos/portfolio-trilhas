@@ -25,11 +25,16 @@ body {
     align-items: center;
     justify-content: center;
     gap: 3px;
-    border: 1px solid red;
-    line-height: 30px;
+    /* border: 1px solid red; */
+}
+
+.home {
+    border-bottom: 3px solid #2F4858;
+    padding-bottom: 8px;
 }
 
 svg {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding-bottom: 2px;
 }
 
