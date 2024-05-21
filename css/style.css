@@ -3,6 +3,9 @@
 :root{
     --fonte-primaria: 'Do Hyeon', sans-serif;
     --fonte-secundária: 'Lato', sans-serif;
+    --cor-azul-destaque: #4074D2;
+    --cor-branca: #F6F6F6;
+    --cor-hover: #104cbb;
 }
 body {
     background: linear-gradient(225deg, #020024 0%, #001138 35%, #264180 100%);
@@ -17,8 +20,7 @@ body {
     gap: 64px;
     font-family: var(--fonte-primaria);
     font-size: 24px;
-    color: #4074D2; 
-    
+    color: var(--cor-azul-destaque); 
 }
 /*RESOLVER ALINHAMENTO ICON E TEXTO*/
 .botoes-menu {
@@ -29,8 +31,14 @@ body {
     /* border: 1px solid red; */
 }
 
-.home {
-    border-bottom: 3px solid #4074D2;
+.botoes-menu:hover {
+    color: var(--cor-hover);
+    border-bottom: 3px solid var(--cor-hover);
+    padding-bottom: 8px;
+}
+
+.home-linha {
+    border-bottom: 3px solid var(--cor-azul-destaque);
     padding-bottom: 8px;
 }
 
@@ -40,10 +48,10 @@ svg {
 }
 
 .container {
-    border: 2px solid gray;
-    padding: 16px;
+    border: 2px solid #808080;
+    padding: 16px 16px 0;
     border-radius: 10px;
-    margin: 160px 155px 117px 155px;
+    margin: 80px 155px 117px 155px;
     display: flex;
     gap: 210px;
 }
@@ -68,21 +76,60 @@ svg {
     font-family: var(--fonte-primaria);
     font-size: 36px;
     font-weight: 400;
-    color: #F6F6F6;
+    color: var(--cor-branca);
 }
 
 #enfase-nome {
-    color: #4074D2;
+    color: var(--cor-azul-destaque);
 }
 
 .apresentacao-texto {
     font-family: var(--fonte-secundária);
     font-size: 20px;
     font-weight: 400;
-    color: #F6F6F6;
+    color: var(--cor-branca);
     line-height: 36px;
 }
 
 .foto-perfil {
     width: 488px;
+    border-radius: 50%;
+}
+
+.container-redes-sociais {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-branca);
+    padding: 0 84px;
+}
+
+.redes-sociais {
+    font-family: var(--fonte-secundária);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.botoes-redes-sociais {
+    border: 2px solid var(--cor-azul-destaque);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.sociais {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-redes-sociais:hover {
+    background-color: var(--cor-hover);
+    border: 2px solid var(--cor-branca);
 }
