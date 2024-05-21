@@ -2,9 +2,10 @@
 
 :root{
     --fonte-primaria: 'Do Hyeon', sans-serif;
+    --fonte-secundária: 'Lato', sans-serif;
 }
 body {
-    background-image: linear-gradient(to right bottom, #2aab8c, #20a68d, #17a28e, #0d9d8e, #05988e, #00928d, #008b8b, #008589, #097c85, #14727f, #1d6979, #246071);
+    background: linear-gradient(225deg, #020024 0%, #001138 35%, #264180 200%);
 }
 
 .barra-navegacao {
@@ -39,16 +40,18 @@ svg {
 }
 
 .container {
-    border: 1px solid red;
+    border: 2px solid gray;
+    padding: 16px;
+    border-radius: 10px;
     margin: 160px 155px 117px 155px;
     display: flex;
     gap: 210px;
 }
 
 .container-apresentacao {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 548px;
-    height: 517px;
+    /* height: 517px; */
     margin-bottom: 35px;
     display: flex;
     flex-direction: column;
@@ -63,7 +66,7 @@ svg {
 
 .apresentacao-nome {
     font-family: var(--fonte-primaria);
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 400;
     color: #F6F6F6;
 }
@@ -73,7 +76,13 @@ svg {
 }
 
 .apresentacao-texto {
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-family: var(--fonte-secundária);
+    font-size: 20px;
     font-weight: 400;
+    color: #F6F6F6;
+    line-height: 36px;
+}
+
+.foto-perfil {
+    width: 488px;
 }
