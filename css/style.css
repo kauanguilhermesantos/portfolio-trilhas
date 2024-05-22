@@ -38,7 +38,7 @@ body {
     padding-bottom: 8px;
 }
 
-.home-linha {
+.home-linha, .habilidades-linha {
     border-bottom: 3px solid var(--cor-azul-destaque);
     padding-bottom: 8px;
 }
@@ -49,15 +49,15 @@ svg {
 }
 
 .container {
-    border: 2px solid var(--cor-cinza);
-    padding: 16px 16px 0;
+    /* border: 1.5px solid var(--cor-cinza); */
+    padding: 20px 20px 0;
     border-radius: 10px;
     margin: 80px 155px 117px 155px;
     display: flex;
     gap: 210px;
 }
 
-.container-apresentacao {
+.container-apresentacao, .container-minhas-habilidades {
     /* border: 1px solid red; */
     width: 548px;
     /* height: 517px; */
@@ -67,13 +67,13 @@ svg {
     gap: 50px;
 }
 
-.apresentacao {
+.apresentacao, .minhas-habilidades {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.apresentacao-nome {
+.apresentacao-nome, .container-minhas-habilidades {
     font-family: var(--fonte-primaria);
     font-size: 36px;
     font-weight: 400;
@@ -84,7 +84,7 @@ svg {
     color: var(--cor-azul-destaque);
 }
 
-.apresentacao-texto {
+.apresentacao-texto, .habilidades-texto {
     font-family: var(--fonte-secundária);
     font-size: 20px;
     font-weight: 400;
@@ -92,9 +92,23 @@ svg {
     line-height: 36px;
 }
 
+.container-foto-perfil {
+    /* border: 1px solid red; */
+}
+
 .foto-perfil {
-    width: 488px;
+    width: 400px;
     border-radius: 50%;
+}
+
+.foto-stacks {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 200px; 
+    width: 300px;
+    margin: 40px 0 100px;
+    padding: 20px;
 }
 
 .container-redes-sociais {
@@ -137,7 +151,7 @@ svg {
 
 .rodape {
     /* border: 1px solid red; */
-    padding: 0 0 25px;
+    padding: 0 0 30px;
     text-align: center;
     font-family: var(--fonte-secundária);
     font-size: 16px;
@@ -147,8 +161,14 @@ svg {
     flex-direction: column;
     gap: 25px;
     align-items: center;
+    /* border-top: 2px solid var(--cor-azul-destaque); */
 }
 
 .logo-alura-include {
     width: 130px;
+}
+
+.link-nome:hover {
+    text-decoration: underline;
+    color: var(--cor-cinza);
 }
