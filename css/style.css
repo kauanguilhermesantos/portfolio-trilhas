@@ -6,6 +6,7 @@
     --cor-azul-destaque: #4074D2;
     --cor-branca: #F6F6F6;
     --cor-hover: #104cbb;
+    --cor-cinza: #B9B9B9;
 }
 body {
     background: linear-gradient(225deg, #020024 0%, #001138 35%, #264180 100%);
@@ -48,7 +49,7 @@ svg {
 }
 
 .container {
-    border: 2px solid #808080;
+    border: 2px solid var(--cor-cinza);
     padding: 16px 16px 0;
     border-radius: 10px;
     margin: 80px 155px 117px 155px;
@@ -132,4 +133,23 @@ svg {
 .botoes-redes-sociais:hover {
     background-color: var(--cor-hover);
     border: 2px solid var(--cor-branca);
+}
+
+.rodape {
+    /* border: 1px solid red; */
+    padding: 0 0 25px;
+    text-align: center;
+    font-family: var(--fonte-secundária);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.logo-alura-include {
+    width: 125px;
+
 }
