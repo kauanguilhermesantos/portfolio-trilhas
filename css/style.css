@@ -57,7 +57,7 @@ svg {
     gap: 210px;
 }
 
-.container-apresentacao, .container-minhas-habilidades, .container-projetos {
+.container-apresentacao, .container-minhas-habilidades {
     /* border: 1px solid red; */
     width: 548px;
     /* height: 517px; */
@@ -66,6 +66,7 @@ svg {
     flex-direction: column;
     gap: 50px;
 }
+
 
 .apresentacao, .minhas-habilidades, .projetos {
     display: flex;
@@ -174,4 +175,59 @@ svg {
 .link-nome:hover {
     text-decoration: underline;
     color: var(--cor-cinza);
+}
+
+.container-projetos {
+    /* border: 1px solid red; */
+    /* width: 548px; */
+    /* height: 517px; */
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.alguns-projetos {
+    /* border: 1px solid red; */
+}
+
+.painel-de-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nome-do-projeto {
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    color: var(--cor-branca);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pro {
+    border: 1px solid var(--cor-branca);
+    border-radius: 16px;
+    width: 370px;
+}
+
+.icon-projetos {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+ion-icon {
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+    color: var(--cor-branca);
+}   
+
+ion-icon:hover {
+    color: var(--cor-hover);
 }
