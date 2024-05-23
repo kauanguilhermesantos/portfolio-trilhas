@@ -57,7 +57,7 @@ svg {
     gap: 210px;
 }
 
-.container-apresentacao, .container-minhas-habilidades {
+.container-apresentacao, .container-minhas-habilidades, .container-projetos {
     /* border: 1px solid red; */
     width: 548px;
     /* height: 517px; */
@@ -67,13 +67,13 @@ svg {
     gap: 50px;
 }
 
-.apresentacao, .minhas-habilidades {
+.apresentacao, .minhas-habilidades, .projetos {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.apresentacao-nome, .container-minhas-habilidades {
+.apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
     font-family: var(--fonte-primaria);
     font-size: 36px;
     font-weight: 400;
@@ -84,7 +84,7 @@ svg {
     color: var(--cor-azul-destaque);
 }
 
-.apresentacao-texto, .habilidades-texto {
+.apresentacao-texto, .habilidades-texto, .projetos-texto {
     font-family: var(--fonte-secundária);
     font-size: 20px;
     font-weight: 400;
@@ -114,7 +114,7 @@ svg {
     padding: 20px;
 }
 
-.container-redes-sociais {
+.container-redes-sociais, .container-certificados {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@ svg {
     padding: 0 84px;
 }
 
-.redes-sociais {
+.redes-sociais, .certificados {
     font-family: var(--fonte-secundária);
     font-weight: 700;
     display: flex;
@@ -135,19 +135,19 @@ svg {
     gap: 32px;
 }
 
-.botoes-redes-sociais {
+.botoes-redes-sociais, .botao-certificados {
     border: 2px solid var(--cor-azul-destaque);
     border-radius: 8px;
     padding: 16px;
 }
 
-.sociais {
+.sociais, .certificado {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
-.botoes-redes-sociais:hover {
+.botoes-redes-sociais:hover, .botao-certificados:hover {
     background-color: var(--cor-hover);
     border: 2px solid var(--cor-branca);
 }
