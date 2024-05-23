@@ -38,7 +38,7 @@ body {
     padding-bottom: 8px;
 }
 
-.home-linha, .habilidades-linha {
+.home-linha, .habilidades-linha, .projetos-linha {
     border-bottom: 3px solid var(--cor-azul-destaque);
     padding-bottom: 8px;
 }
@@ -94,6 +94,9 @@ svg {
 
 .container-foto-perfil {
     /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto-perfil {
