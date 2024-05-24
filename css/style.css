@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 51px 51px auto;
+    margin: 3,1875rem 3,1875rem auto;
     gap: 64px;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
@@ -32,6 +32,15 @@ body {
     /* border: 1px solid red; */
 }
 
+.icon-menu {
+    width: 24px;
+    height: 24px;
+    color: var(--cor-azul-destaque);
+    /* border: 1px solid red; */
+    padding: 0;
+    margin-right: 4px
+}
+
 .botoes-menu:hover {
     color: var(--cor-hover);
     border-bottom: 3px solid var(--cor-hover);
@@ -39,7 +48,7 @@ body {
 }
 
 .home-linha, .habilidades-linha, .projetos-linha {
-    border-bottom: 3px solid var(--cor-azul-destaque);
+    border-bottom: 0.2rem solid var(--cor-azul-destaque);
     padding-bottom: 8px;
 }
 
@@ -51,8 +60,7 @@ svg {
 .container {
     /* border: 1.5px solid var(--cor-cinza); */
     padding: 20px 20px 0;
-    border-radius: 10px;
-    margin: 80px 155px 117px 155px;
+    margin: 5rem 9.6875rem 7.3125rem 9.6875rem;
     display: flex;
     justify-content: center;
     gap: 210px;
@@ -185,10 +193,6 @@ svg {
     gap: 50px;
 }
 
-.alguns-projetos {
-    /* border: 1px solid red; */
-}
-
 .painel-de-projetos {
     display: flex;
     align-items: center;
@@ -217,6 +221,7 @@ svg {
     gap: 40px;
 }
 
+
 ion-icon {
     /* border: 1px solid red; */
     padding: 10px;
@@ -229,10 +234,20 @@ ion-icon:hover {
     color: var(--cor-hover);
 }
 
-@media (max-width: 1024px) {
-    .apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
-        font-size: 2.25rem;
-        font-weight: 400;
-        color: var(--cor-branca);
+@media (max-width: 2560px) {
+    .barra-navegacao {
+        /* border: 1px solid red; */
+        margin: 5rem 5rem auto;
+        gap: 70px;
+        font-size: 2rem;
+    }
+
+    .container {
+        /* border: 1.5px solid var(--cor-cinza); */
+        padding: 60px 60px 0 0;
+        margin: 6rem 10rem 8rem 10rem;
+        display: flex;
+        justify-content: center;
+        gap: 13rem;
     }
 }
