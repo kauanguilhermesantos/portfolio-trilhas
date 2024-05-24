@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3,1875rem 3,1875rem auto;
+    margin: 51px 51px auto;
     gap: 64px;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
@@ -63,7 +63,7 @@ svg {
     margin: 5rem 9.6875rem 7.3125rem 9.6875rem;
     display: flex;
     justify-content: center;
-    gap: 210px;
+    gap: 13rem;
 }
 
 .container-apresentacao, .container-minhas-habilidades {
@@ -73,7 +73,7 @@ svg {
     margin-bottom: 35px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 
@@ -157,6 +157,15 @@ svg {
     justify-content: center;
 }
 
+.icon-sociais {
+    width: 24px;
+    height: 24px;
+    color: var(--cor-azul-destaque);
+    /* border: 1px solid red; */
+    padding: 0;
+    margin-right: 4px   
+}
+
 .botoes-redes-sociais:hover, .botao-certificados:hover {
     background-color: var(--cor-hover);
     border: 2px solid var(--cor-branca);
@@ -222,7 +231,7 @@ svg {
 }
 
 
-ion-icon {
+.link-projetos {
     /* border: 1px solid red; */
     padding: 10px;
     width: 32px;
@@ -230,11 +239,11 @@ ion-icon {
     color: var(--cor-branca);
 }   
 
-ion-icon:hover {
+.link-projetos:hover {
     color: var(--cor-hover);
 }
 
-@media (max-width: 2560px) {
+@media screen and   (max-width: 1440px) {
     .barra-navegacao {
         /* border: 1px solid red; */
         margin: 5rem 5rem auto;
@@ -245,9 +254,108 @@ ion-icon:hover {
     .container {
         /* border: 1.5px solid var(--cor-cinza); */
         padding: 60px 60px 0 0;
-        margin: 6rem 10rem 8rem 10rem;
+        margin: 6rem 10rem 10rem 10rem;
+    }
+
+    .apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 1303px) {
+    .container {
+        /* border: 1.5px solid var(--cor-cinza); */
+        padding: 60px 60px 0 0;
+        margin: 6rem 8rem 8rem 10rem;
+        gap: 6rem;
+    }
+
+    .apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .foto-stacks {
+        height: 200px; 
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .painel-de-projetos {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-apresentacao, .container-minhas-habilidades, .container-projetos {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        /* border: 1.5px solid var(--cor-cinza); */
+        padding: 60px 60px 0 0;
+        margin: 6rem 8rem 8rem 10rem;
+        gap: 6rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .barra-navegacao {
+        gap: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .container {
         display: flex;
         justify-content: center;
-        gap: 13rem;
+        /* border: 1px solid red; */
+        margin: 2rem 0 2rem 0;
+        padding: 1rem;
+        gap: 2rem;
+    }
+    .foto-perfil {
+        width: 200px;
+        border-radius: 50%;
+        margin: 1rem 0;
+    }
+
+    .apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
+        /* border: 1px solid red; */
+        margin: 1px;
+    }
+
+    .foto-stacks {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        gap: 0.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .stacks {
+        display: flex;
+        justify-content: center;
+        height: 200px; 
+        width: 100px;
+    }
+
+    .botao-certificados {
+        border: 2px solid var(--cor-azul-destaque);
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+
+    .pro {
+        width: 320px;
     }
 }
