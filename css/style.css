@@ -87,7 +87,27 @@ svg {
     font-family: var(--fonte-primaria);
     font-size: 2.25rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-azul-destaque);
+}
+
+#nome::after, #habilidades::after {
+    font-family: var(--fonte-secundária);
+    content: " |";
+    animation: piscar 0.65s infinite;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 #enfase-nome {
@@ -311,7 +331,8 @@ svg {
 @media screen and (max-width: 450px) {
     .barra-navegacao {
         gap: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+        margin-top: 2rem;
     }
 
     .container {
