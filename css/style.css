@@ -169,10 +169,6 @@ svg {
     /* border-top: 2px solid var(--cor-azul-destaque); */
 }
 
-.logo-alura-include {
-    width: 130px;
-}
-
 .link-nome:hover {
     text-decoration: underline;
     color: var(--cor-cinza);
