@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-    <div style="display: flex; gap: 10px; justify-content:center">
+    <div style="display: flex; gap: 10px; justify-content:center; align-items: center">
         <img alt="Gif do projeto no desktop" src="assets/gifs/gif-desktop.gif" width="600px" height="">
         <img alt="Gif do projeto no mobile" src="assets/gifs/gif-mobile.gif" width="200px">
     </div>
