@@ -1,5 +1,5 @@
 var texto = "Kauan Guilherme Santos";
-var atraso = 200;
+var atraso = 100;
 var textoElemento = document.querySelector(".apresentacao-nome");
 
 var contadorDeLetras = 0;

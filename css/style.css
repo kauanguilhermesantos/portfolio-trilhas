@@ -13,7 +13,6 @@ body {
 }
 
 .barra-navegacao {
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,20 +22,18 @@ body {
     font-size: 1.5rem;
     color: var(--cor-azul-destaque); 
 }
-/*RESOLVER ALINHAMENTO ICON E TEXTO*/
+
 .botoes-menu {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 3px;
-    /* border: 1px solid red; */
 }
 
 .icon-menu {
     width: 24px;
     height: 24px;
     color: var(--cor-azul-destaque);
-    /* border: 1px solid red; */
     padding: 0;
     margin-right: 4px
 }
@@ -53,12 +50,10 @@ body {
 }
 
 svg {
-    /* border: 1px solid red; */
     padding-bottom: 2px;
 }
 
 .container {
-    /* border: 1.5px solid var(--cor-cinza); */
     padding: 20px 20px 0;
     margin: 5rem 9.6875rem 7.3125rem 9.6875rem;
     display: flex;
@@ -67,9 +62,7 @@ svg {
 }
 
 .container-apresentacao, .container-minhas-habilidades {
-    /* border: 1px solid red; */
     width: 548px;
-    /* height: 517px; */
     margin-bottom: 35px;
     display: flex;
     flex-direction: column;
@@ -90,26 +83,6 @@ svg {
     color: var(--cor-azul-destaque);
 }
 
-#nome::after, #habilidades::after {
-    font-family: var(--fonte-secundária);
-    content: " |";
-    animation: piscar 0.65s infinite;
-}
-
-@keyframes piscar {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
 #enfase-nome {
     color: var(--cor-azul-destaque);
 }
@@ -123,7 +96,6 @@ svg {
 }
 
 .container-foto-perfil {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +107,6 @@ svg {
 }
 
 .foto-stacks {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     height: 200px; 
@@ -145,7 +116,6 @@ svg {
 }
 
 .container-redes-sociais, .container-certificados {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -181,7 +151,6 @@ svg {
     width: 24px;
     height: 24px;
     color: var(--cor-azul-destaque);
-    /* border: 1px solid red; */
     padding: 0;
     margin-right: 4px   
 }
@@ -192,7 +161,6 @@ svg {
 }
 
 .rodape {
-    /* border: 1px solid red; */
     padding: 0 0 30px;
     text-align: center;
     font-family: var(--fonte-secundária);
@@ -203,7 +171,6 @@ svg {
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    /* border-top: 2px solid var(--cor-azul-destaque); */
 }
 
 .link-nome:hover {
@@ -212,9 +179,6 @@ svg {
 }
 
 .container-projetos {
-    /* border: 1px solid red; */
-    /* width: 548px; */
-    /* height: 517px; */
     margin-bottom: 35px;
     display: flex;
     justify-content: center;
@@ -244,7 +208,6 @@ svg {
 }
 
 .icon-projetos {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -252,7 +215,6 @@ svg {
 
 
 .link-projetos {
-    /* border: 1px solid red; */
     padding: 10px;
     width: 32px;
     height: 32px;
@@ -265,14 +227,13 @@ svg {
 
 @media screen and   (max-width: 1440px) {
     .barra-navegacao {
-        /* border: 1px solid red; */
+
         margin: 5rem 5rem auto;
         gap: 70px;
         font-size: 2rem;
     }
 
     .container {
-        /* border: 1.5px solid var(--cor-cinza); */
         padding: 60px 60px 0 0;
         margin: 6rem 10rem 10rem 10rem;
     }
@@ -284,7 +245,6 @@ svg {
 
 @media screen and (max-width: 1303px) {
     .container {
-        /* border: 1.5px solid var(--cor-cinza); */
         padding: 60px 60px 0 0;
         margin: 6rem 8rem 8rem 10rem;
         gap: 6rem;
@@ -321,7 +281,6 @@ svg {
 
 @media screen and (max-width: 768px) {
     .container {
-        /* border: 1.5px solid var(--cor-cinza); */
         padding: 60px 60px 0 0;
         margin: 6rem 8rem 8rem 10rem;
         gap: 6rem;
@@ -338,7 +297,6 @@ svg {
     .container {
         display: flex;
         justify-content: center;
-        /* border: 1px solid red; */
         margin: 2rem 0 2rem 0;
         padding: 1rem;
         gap: 2rem;
@@ -350,12 +308,10 @@ svg {
     }
 
     .apresentacao-nome, .container-minhas-habilidades, .projetos-titulo {
-        /* border: 1px solid red; */
         margin: 1px;
     }
 
     .foto-stacks {
-        /* border: 1px solid red; */
         display: flex;
         justify-content: center;
         gap: 0.1rem;

@@ -1,5 +1,5 @@
 var texto = "Minhas Habilidades";
-var atraso = 200;
+var atraso = 100;
 var textoElemento = document.querySelector(".habilidades-titulo");
 
 var contadorDeLetras = 0;

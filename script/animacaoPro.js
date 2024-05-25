@@ -1,5 +1,5 @@
 var texto = "Meus Projetos";
-var atraso = 200;
+var atraso = 100;
 var textoElemento = document.querySelector(".projetos-titulo");
 
 var contadorDeLetras = 0;
